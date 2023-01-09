@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roucky - Roulett of lucky</title>
+    <link rel="shortcut icon" href="img/iconRoucky.png" type="image/x-icon" />
+    <!-- CSS CUSTOM -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- JS SCRIPT -->
+    <script type="module" defer src="scripts/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <img src="img/logoRocky.png" class="logo logo__header" />
+
+      <div class="btn__spin" data-spinner-action="spin" data-leng-default="on">
+        Spin!
+      </div>
+
+      <div class="container container__header-settings">
+        <h1 class="label label__header-settings">Settings</h1>
+
+        <div class="container__theme">
+          <h2 class="label__sub label__theme">Themes</h2>
+          <ul class="nav nav__theme">
+            <li class="list list__theme-electro" data-electro="off">Electro</li>
+            <li class="list list__theme-normal active" data-electro="off">
+              Normal
+            </li>
+          </ul>
+        </div>
+
+        <div class="container__lenguage">
+          <h2 class="label__sub label__lenguage">Lenguage</h2>
+          <ul class="nav nav__lenguage">
+            <li class="list list__lenguage-esp" data-electro="off">Spanish</li>
+            <li class="list list__lenguage-eng active" data-electro="off">
+              English
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <svg class="btn__nav">
+        <use xlink:href="img/Icon-Settings.svg#navSetting"></use>
+      </svg>
+    </header>
+
+    <main class="main">
+      <div class="screen">
+        <h1 class="label label__screen">Result</h1>
+        <h2 class="label__sub label__rulet-value">0$</h2>
+      </div>
+      <div class="box__rulet">
+        <div class="rulet__pointer"></div>
+        <div class="rulet__body">
+          <img src="img/logoRocky.png" class="logo logo__rulet" />
+          <h3 class="rulet__value rulet__value--1" data-numb="1">1000$</h3>
+          <h3 class="rulet__value rulet__value--2" data-numb="2">0$</h3>
+          <h3 class="rulet__value rulet__value--3" data-numb="3">50$</h3>
+          <h3 class="rulet__value rulet__value--4" data-numb="4">0$</h3>
+          <h3 class="rulet__value rulet__value--5" data-numb="5">100$</h3>
+          <h3 class="rulet__value rulet__value--6" data-numb="6">0$</h3>
+          <h3 class="rulet__value rulet__value--7" data-numb="7">200$</h3>
+          <h3 class="rulet__value rulet__value--8" data-numb="8">0$</h3>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
