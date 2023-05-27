@@ -19,3 +19,4 @@ export const containerSettings = document.querySelector(
   ".container__header-settings"
 );
 export const btnSetting = document.querySelector(".btn__nav");
+export const copyright = document.querySelector(".copyright");

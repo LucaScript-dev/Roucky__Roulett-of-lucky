@@ -130,6 +130,7 @@ body {
 
 .box__rulet {
   position: relative;
+  margin: auto 0;
 }
 
 .rulet__body {
@@ -217,6 +218,14 @@ body {
   left: 62.5%;
   transform: translate(-50%, -50%) rotate(157.5deg);
   padding: 0 4.7rem;
+}
+
+/* Copyright */
+.copyright {
+  color: var(--color-purple);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 /* Btn spin rulet */

@@ -13,6 +13,7 @@ import {
   labelRuletValue,
   labelScreen,
   containerSettings,
+  copyright,
 } from "./elementSelect.js";
 
 themeElectro.addEventListener("click", () => {
@@ -22,7 +23,7 @@ themeElectro.addEventListener("click", () => {
   headerRoucky.style.backgroundColor = "#101419";
   mainRoucky.style.backgroundColor = "#0c0c0c";
   containerSettings.style.backgroundColor = "#101419";
-
+  copyright.style.color = "#d00000";
   ruletBody.classList.add("ruletElectro");
 
   screenRulet.classList.add("resultScreenElectro");
@@ -66,6 +67,7 @@ themeNormal.addEventListener("click", () => {
   headerRoucky.style.backgroundColor = "#00cfc1";
   mainRoucky.style.backgroundColor = "#ffefe8";
   containerSettings.style.backgroundColor = "#00cfc1";
+  copyright.style.color = "#462255";
   ruletBody.classList.remove("ruletElectro");
 
   btnSpin.classList.remove("btnSpinElectro");
